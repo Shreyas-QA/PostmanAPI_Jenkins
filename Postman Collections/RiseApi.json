@@ -1,0 +1,187 @@
+{
+  "info": {
+    "_postman_id": "1c4747de-844f-41b4-ab39-413f208484a6",
+    "name": "DemoApis",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "pm_login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "3e77b5a7-a42e-45dc-bd08-3ccf51a61a99",
+            "exec": [
+              "//Validating successful response message.\r",
+              "pm.test(\"Body matches string\", function() {\r",
+              "    pm.expect(pm.response.text()).to.include(\"Login Successfully\");\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "0d19b17f-3db5-4d08-869e-f7b855a86d05",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true,
+        "disabledSystemHeaders": {
+          "content-length": true,
+          "user-agent": true,
+          "accept": true,
+          "accept-encoding": true,
+          "connection": true
+        }
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/login?email=pm@explore.com&password=Password@123",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "login"
+          ],
+          "query": [
+            {
+              "key": "email",
+              "value": "pm@explore.com"
+            },
+            {
+              "key": "password",
+              "value": "Password@123"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "staff_login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "8c45ced4-f913-4900-9a7d-b2a63fc91b40",
+            "exec": [
+              "//Validating successful response message.\r",
+              "pm.test(\"Body matches string\", function() {\r",
+              "    pm.expect(pm.response.text()).to.include(\"Login Successfully\");\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "6a9a59be-a2d9-4779-8d99-ec670620f157",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/login?email=nirav.patel@jeavio.com&password=Niravpatel@152",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "login"
+          ],
+          "query": [
+            {
+              "key": "email",
+              "value": "nirav.patel@jeavio.com"
+            },
+            {
+              "key": "password",
+              "value": "Niravpatel@152"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Resident",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "97dac732-294c-40a6-958a-ff8eafee9299",
+            "exec": [
+              "//Validating successful response message.\r",
+              "pm.test(\"Body matches string\", function() {\r",
+              "    pm.expect(pm.response.text()).to.include(\"Login Successfully\");\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "9ac0997f-ebcf-4212-85e2-c36498ffeda8",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/login?email=niravpatel5653@gmail.com&password=Niravpatel@152",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "login"
+          ],
+          "query": [
+            {
+              "key": "email",
+              "value": "niravpatel5653@gmail.com"
+            },
+            {
+              "key": "password",
+              "value": "Niravpatel@152"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "1e998aff-2e22-4fc0-a3b6-6c2fae0bb6d0",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "1b79a745-a04e-4577-9a07-390a8f32ce59",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "9af3ee50-a670-480a-81bc-ab1e965e9e72",
+      "key": "url",
+      "value": "https://staging.risebuildings.com",
+      "type": "string"
+    }
+  ]
+}

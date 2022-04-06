@@ -16,13 +16,17 @@
               "//Validating successful response message.\r",
               "pm.test(\"Body matches string\", function() {\r",
               "    pm.expect(pm.response.text()).to.include(\"Login Successfully\");\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Response time is less than 500ms\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(500);\r",
               "});"
             ],
             "type": "text/javascript"
           }
         }
       ],
-      "_postman_id": "0d19b17f-3db5-4d08-869e-f7b855a86d05",
+      "id": "0d19b17f-3db5-4d08-869e-f7b855a86d05",
       "protocolProfileBehavior": {
         "disableBodyPruning": true,
         "disabledSystemHeaders": {
@@ -76,7 +80,7 @@
           }
         }
       ],
-      "_postman_id": "6a9a59be-a2d9-4779-8d99-ec670620f157",
+      "id": "6a9a59be-a2d9-4779-8d99-ec670620f157",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -123,7 +127,7 @@
           }
         }
       ],
-      "_postman_id": "9ac0997f-ebcf-4212-85e2-c36498ffeda8",
+      "id": "9ac0997f-ebcf-4212-85e2-c36498ffeda8",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -178,7 +182,7 @@
   ],
   "variable": [
     {
-      "id": "9af3ee50-a670-480a-81bc-ab1e965e9e72",
+      "id": "f7618342-41d6-448b-8617-802280f13b9e",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"

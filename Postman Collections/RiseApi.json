@@ -125,6 +125,10 @@
               "//Validating successful response message.\r",
               "pm.test(\"Body matches string\", function() {\r",
               "    pm.expect(pm.response.text()).to.include(\"Login Successfully\");\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Response time is less than 500ms\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(500);\r",
               "});"
             ],
             "type": "text/javascript"
@@ -186,7 +190,7 @@
   ],
   "variable": [
     {
-      "id": "eb697752-74d7-4c46-baf5-e6172f2fe79e",
+      "id": "c6ac123b-9314-4000-9715-f8b13e91e882",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"

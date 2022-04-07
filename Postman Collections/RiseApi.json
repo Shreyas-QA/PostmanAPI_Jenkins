@@ -19,7 +19,7 @@
               "});\r",
               "\r",
               "pm.test(\"Response time is less than 500ms\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(1500);\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
               "});"
             ],
             "type": "text/javascript"
@@ -200,7 +200,7 @@
   ],
   "variable": [
     {
-      "id": "ecd525c9-97d0-446b-8527-97653217e021",
+      "id": "3c049e9c-1294-49dc-9305-0038e9e2c0af",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"

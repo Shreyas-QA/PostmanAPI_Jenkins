@@ -41,7 +41,7 @@
         "method": "POST",
         "header": [],
         "url": {
-          "raw": "{{url}}/api/login?email=pm@explore.com&password=Password@123",
+          "raw": "{{url}}/api/login?email={{pm_email}}&password={{pm_password}}",
           "host": [
             "{{url}}"
           ],
@@ -52,11 +52,11 @@
           "query": [
             {
               "key": "email",
-              "value": "pm@explore.com"
+              "value": "{{pm_email}}"
             },
             {
               "key": "password",
-              "value": "Password@123"
+              "value": "{{pm_password}}"
             }
           ]
         }
@@ -190,7 +190,7 @@
   ],
   "variable": [
     {
-      "id": "e075fbc4-2e37-4d3a-8aca-a546321ecc8e",
+      "id": "4b26ef91-cdae-4b2c-a4e1-72717bbdbe7e",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"

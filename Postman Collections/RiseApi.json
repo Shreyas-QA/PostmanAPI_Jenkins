@@ -180,7 +180,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "1e998aff-2e22-4fc0-a3b6-6c2fae0bb6d0",
+        "id": "0fde4878-8518-4723-9afc-388478d4b2fc",
         "type": "text/javascript",
         "exec": [
           ""
@@ -190,7 +190,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "1b79a745-a04e-4577-9a07-390a8f32ce59",
+        "id": "ad9e23f1-ad36-46ec-97d7-ef913c43c64e",
         "type": "text/javascript",
         "exec": [
           ""
@@ -200,9 +200,21 @@
   ],
   "variable": [
     {
-      "id": "3c049e9c-1294-49dc-9305-0038e9e2c0af",
+      "id": "d21b54c6-f12d-4993-87c0-b14233f1c3d5",
       "key": "url",
       "value": "https://staging.risebuildings.com",
+      "type": "string"
+    },
+    {
+      "id": "c8d98192-2191-44d6-8b9d-549dc40158b5",
+      "key": "pm_email",
+      "value": "pm@explore.com",
+      "type": "string"
+    },
+    {
+      "id": "0f95a96a-111e-476a-980c-d84365aa99f2",
+      "key": "pm_password",
+      "value": "Password@123",
       "type": "string"
     }
   ]

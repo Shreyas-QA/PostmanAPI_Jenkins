@@ -180,7 +180,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "0ac8b540-d5aa-404a-82af-7b3208c4b6a4",
+        "id": "3708e022-8c3f-49f3-9dd8-03380352cd29",
         "type": "text/javascript",
         "exec": [
           ""
@@ -190,7 +190,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "c10235e8-a195-4974-a99a-2c5129d9fa8f",
+        "id": "7f3af157-7293-45f6-98f5-b1cec2162c11",
         "type": "text/javascript",
         "exec": [
           ""
@@ -200,32 +200,44 @@
   ],
   "variable": [
     {
-      "id": "e773a355-50db-47ce-8156-bc1720d23822",
+      "id": "0395c1cb-b864-430d-b2ac-9b2326fb56a3",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"
     },
     {
-      "id": "48841457-376f-4a61-9609-c22e336c521f",
+      "id": "f98b208b-7220-44dc-b0af-4edeedd75cb2",
       "key": "pm_email",
       "value": "pm@explore.com",
       "type": "string"
     },
     {
-      "id": "eba529c5-d494-464b-8318-3a24d126a634",
+      "id": "e01ba350-4b59-42d0-87dc-de080244be09",
       "key": "pm_password",
       "value": "Password@123",
       "type": "string"
     },
     {
-      "id": "9bdd515a-ed4b-47b1-9c35-c967cf98b167",
+      "id": "cd35f091-cd76-4a6f-a3c6-0c0d132453ec",
       "key": "staff_email",
       "value": "nirav.patel@jeavio.com",
       "type": "string"
     },
     {
-      "id": "f1dc6bab-ca54-43f1-a45f-912e0c2fe1a3",
+      "id": "09378eff-f8b5-41bb-b59c-44ad917ff4e0",
       "key": "staff_password",
+      "value": "Niravpatel@152",
+      "type": "string"
+    },
+    {
+      "id": "8e0c2e5c-7e6a-4099-9dfe-921da3492419",
+      "key": "Resident_email",
+      "value": "niravpatel5653@gmail.com",
+      "type": "string"
+    },
+    {
+      "id": "a9a7a1dd-5926-409e-8836-ea9a6e0e1739",
+      "key": "Resident_password",
       "value": "Niravpatel@152",
       "type": "string"
     }

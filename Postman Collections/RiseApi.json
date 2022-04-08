@@ -13,6 +13,13 @@
           "script": {
             "id": "3e77b5a7-a42e-45dc-bd08-3ccf51a61a99",
             "exec": [
+              "\r",
+              "//Fetching PM user token and Id from the response\r",
+              "var jsonData = JSON.parse(responseBody);\r",
+              "pm.globals.set(\"pm_token\", jsonData.data.token);\r",
+              "pm.globals.set(\"pm_id\", jsonData.data.user_id);\r",
+              "\r",
+              "\r",
               "//Validating successful response message.\r",
               "pm.test(\"Body matches string\", function() {\r",
               "    pm.expect(pm.response.text()).to.include(\"Login Successfully\");\r",
@@ -200,43 +207,43 @@
   ],
   "variable": [
     {
-      "id": "1d01cd42-82e2-4089-bb11-e0e17078306a",
+      "id": "a2e09bf4-7bc9-4de5-99bd-3c8938dad140",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"
     },
     {
-      "id": "5fb7818c-8fa0-40bd-a579-8bb6f07ee96b",
+      "id": "d98466aa-b8d3-4f6c-950b-5ce41c902a01",
       "key": "pm_email",
       "value": "pm@explore.com",
       "type": "string"
     },
     {
-      "id": "659f4ed8-db94-472c-b6d3-788dcb5f4fcd",
+      "id": "d719d7b3-11f4-499f-969f-46a8c2b4d1a5",
       "key": "pm_password",
       "value": "Password@123",
       "type": "string"
     },
     {
-      "id": "f33962e3-2e4d-44ad-b466-db4712522181",
+      "id": "dc2a2db6-65f8-4b14-9c6e-1c7f72f03d06",
       "key": "staff_email",
       "value": "nirav.patel@jeavio.com",
       "type": "string"
     },
     {
-      "id": "82fac23f-08be-421d-aad8-c1f792fa5029",
+      "id": "df6f39d2-bb8b-477f-bee0-fcbb12226ef8",
       "key": "staff_password",
       "value": "Niravpatel@152",
       "type": "string"
     },
     {
-      "id": "69a4e9a5-e98d-4080-8e41-fa7b2f0d37f0",
+      "id": "ba1e9b9b-1475-47b0-8361-21ad55d3c45f",
       "key": "Resident_email",
       "value": "niravpatel5653@gmail.com",
       "type": "string"
     },
     {
-      "id": "8c24895e-8576-49cf-aba0-939825f96300",
+      "id": "2c7d97fd-999a-456d-b15a-e9ac64f719bd",
       "key": "Resident_password",
       "value": "Niravpatel@152",
       "type": "string"

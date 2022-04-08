@@ -93,8 +93,8 @@
               "    pm.expect(pm.response.text()).to.include(\"Login Successfully\");\r",
               "});\r",
               "\r",
-              "pm.test(\"Response time is less than 500ms\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+              "pm.test(\"Response time is less than 1000ms\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
               "});"
             ],
             "type": "text/javascript"
@@ -207,43 +207,43 @@
   ],
   "variable": [
     {
-      "id": "da04b905-c491-4a06-8d67-45a1a45610cb",
+      "id": "bffdf061-02e4-493b-b6cd-5ca22a1004cc",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"
     },
     {
-      "id": "0bb1c017-a8a7-4e50-98e0-effba7609313",
+      "id": "7d2e0fe5-5667-4b8b-ba80-881991470de7",
       "key": "pm_email",
       "value": "pm@explore.com",
       "type": "string"
     },
     {
-      "id": "05a65579-28c3-418c-b52a-15821271e712",
+      "id": "909acc95-5deb-453b-942d-5fb84937111e",
       "key": "pm_password",
       "value": "Password@123",
       "type": "string"
     },
     {
-      "id": "a7a8ef13-61f7-45b0-8ca5-631c2382c249",
+      "id": "38aad062-e8fe-4815-9bab-e2bdb7445af7",
       "key": "staff_email",
       "value": "nirav.patel@jeavio.com",
       "type": "string"
     },
     {
-      "id": "18f5b49a-c4ea-4314-9901-76c3a8d83428",
+      "id": "2495db5b-c2f2-4cb7-a45f-8a77a009f16e",
       "key": "staff_password",
       "value": "Niravpatel@152",
       "type": "string"
     },
     {
-      "id": "2708c118-5050-4576-b6d2-4f82399e19f7",
+      "id": "5c4d25f6-5279-4d42-8c44-1d2b9c23105b",
       "key": "Resident_email",
       "value": "niravpatel5653@gmail.com",
       "type": "string"
     },
     {
-      "id": "1fe35eae-154c-4e7b-8111-dfba7fcba6d1",
+      "id": "9640066a-8a62-4aca-9806-b1cd66e32c13",
       "key": "Resident_password",
       "value": "Niravpatel@152",
       "type": "string"

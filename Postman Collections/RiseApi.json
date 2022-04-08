@@ -145,7 +145,7 @@
               "});\r",
               "\r",
               "pm.test(\"Response time is less than 500ms\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(1500);\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
               "});"
             ],
             "type": "text/javascript"
@@ -207,43 +207,43 @@
   ],
   "variable": [
     {
-      "id": "b486f9e8-1452-421c-8996-515e09955a9c",
+      "id": "abff61bc-06c9-4bae-8cfe-8ee19628534e",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"
     },
     {
-      "id": "7fc2b6b1-f198-4c4a-95ad-c182bc616198",
+      "id": "40f826b2-65bb-41a8-8cf6-9733f6682284",
       "key": "pm_email",
       "value": "pm@explore.com",
       "type": "string"
     },
     {
-      "id": "def7ddcb-01b3-488a-a82d-5c1e3ba27ce6",
+      "id": "55e5de39-f68d-4a25-bb65-1c122755ddf3",
       "key": "pm_password",
       "value": "Password@123",
       "type": "string"
     },
     {
-      "id": "218eb9ff-5b73-434d-b076-ddeea4ee72b4",
+      "id": "0bf1ce5f-e0de-4ef4-aa29-c4c3f321ca38",
       "key": "staff_email",
       "value": "nirav.patel@jeavio.com",
       "type": "string"
     },
     {
-      "id": "3043463a-03c1-478f-824b-02bc7d87733c",
+      "id": "45fc3ce1-f11c-4f8c-832e-2c0ac6c2845a",
       "key": "staff_password",
       "value": "Niravpatel@152",
       "type": "string"
     },
     {
-      "id": "b92ca1c7-6f1a-406f-879f-565a5dee64ee",
+      "id": "ab1807dc-c8f8-4d0f-b371-20a9c73b9f14",
       "key": "Resident_email",
       "value": "niravpatel5653@gmail.com",
       "type": "string"
     },
     {
-      "id": "f01e4489-e499-4262-bc7e-ef0dd95c804a",
+      "id": "e52127ac-ca13-4e48-bdff-0864a9b1c88a",
       "key": "Resident_password",
       "value": "Niravpatel@152",
       "type": "string"

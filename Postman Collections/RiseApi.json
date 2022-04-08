@@ -102,7 +102,7 @@
         "method": "POST",
         "header": [],
         "url": {
-          "raw": "{{url}}/api/login?email=nirav.patel@jeavio.com&password=Niravpatel@152",
+          "raw": "{{url}}/api/login?email={{staff_email}}&password={{staff_password}}",
           "host": [
             "{{url}}"
           ],
@@ -113,11 +113,11 @@
           "query": [
             {
               "key": "email",
-              "value": "nirav.patel@jeavio.com"
+              "value": "{{staff_email}}"
             },
             {
               "key": "password",
-              "value": "Niravpatel@152"
+              "value": "{{staff_password}}"
             }
           ]
         }
@@ -200,19 +200,19 @@
   ],
   "variable": [
     {
-      "id": "d21b54c6-f12d-4993-87c0-b14233f1c3d5",
+      "id": "c7ccda9b-68ab-4bc2-9458-99eb8385f153",
       "key": "url",
       "value": "https://staging.risebuildings.com",
       "type": "string"
     },
     {
-      "id": "c8d98192-2191-44d6-8b9d-549dc40158b5",
+      "id": "76cf91e0-51d8-4a96-84e1-97c7ddc3d622",
       "key": "pm_email",
       "value": "pm@explore.com",
       "type": "string"
     },
     {
-      "id": "0f95a96a-111e-476a-980c-d84365aa99f2",
+      "id": "980d490e-3999-47f0-8da7-1de5a8baa370",
       "key": "pm_password",
       "value": "Password@123",
       "type": "string"
